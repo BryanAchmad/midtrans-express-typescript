@@ -11,5 +11,7 @@
     },
     "plugins": ["@typescript-eslint"],
     "ignorePatterns": ["**/build/*", "**/node_modules/*", "**/public/*"],
-    "rules": {}
+    "rules": {
+        "@typescript-eslint/indent": ["error", 4]
+    }
 }
