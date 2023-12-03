@@ -1,0 +1,859 @@
+{
+    "date": "Sun Dec 03 2023 20:05:25 GMT+0700 (Western Indonesia Time)",
+    "error": {
+        "diagnosticCodes": [
+            2345,
+            1005,
+            1005,
+            1005
+        ]
+    },
+    "exception": true,
+    "level": "error",
+    "message": "uncaughtException: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type 'string[]' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message([\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         ]),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m14\u001b[0m:\u001b[93m26\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m  \u001b[0m \u001b[91m                         ~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m15\u001b[0m:\u001b[93m27\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m15\u001b[0m             'string.empty': 'Jumlah tidak boleh kosong',\r\n\u001b[7m  \u001b[0m \u001b[91m                          ~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m16\u001b[0m:\u001b[93m27\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m  \u001b[0m \u001b[91m                          ~\u001b[0m\r\n\nTSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type 'string[]' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message([\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         ]),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m14\u001b[0m:\u001b[93m26\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m  \u001b[0m \u001b[91m                         ~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m15\u001b[0m:\u001b[93m27\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m15\u001b[0m             'string.empty': 'Jumlah tidak boleh kosong',\r\n\u001b[7m  \u001b[0m \u001b[91m                          ~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m16\u001b[0m:\u001b[93m27\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m  \u001b[0m \u001b[91m                          ~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "os": {
+        "loadavg": [
+            0,
+            0,
+            0
+        ],
+        "uptime": 293902.625
+    },
+    "process": {
+        "argv": [
+            "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\dist\\bin.js",
+            "E:\\iseng\\express-ts-midtrans\\src\\index.ts"
+        ],
+        "cwd": "E:\\iseng\\express-ts-midtrans",
+        "execPath": "C:\\Program Files\\nodejs\\node.exe",
+        "gid": null,
+        "memoryUsage": {
+            "arrayBuffers": 2345047,
+            "external": 5227910,
+            "heapTotal": 148389888,
+            "heapUsed": 119312344,
+            "rss": 190234624
+        },
+        "pid": 15448,
+        "uid": null,
+        "version": "v20.9.0"
+    },
+    "stack": "TSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type 'string[]' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message([\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         ]),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m14\u001b[0m:\u001b[93m26\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m  \u001b[0m \u001b[91m                         ~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m15\u001b[0m:\u001b[93m27\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m15\u001b[0m             'string.empty': 'Jumlah tidak boleh kosong',\r\n\u001b[7m  \u001b[0m \u001b[91m                          ~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m16\u001b[0m:\u001b[93m27\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m  \u001b[0m \u001b[91m                          ~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "trace": [
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "createTSError",
+            "line": 859,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "reportTSError",
+            "line": 863,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 36,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "getOutput",
+            "line": 1077,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 41,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.compile",
+            "line": 1433,
+            "method": "compile",
+            "native": false
+        },
+        {
+            "column": 30,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Module.m._compile",
+            "line": 1617,
+            "method": "_compile",
+            "native": false
+        },
+        {
+            "column": 10,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._extensions..js",
+            "line": 1295,
+            "method": ".js",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.require.extensions.<computed> [as .ts]",
+            "line": 1621,
+            "method": "ts]",
+            "native": false
+        },
+        {
+            "column": 32,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.load",
+            "line": 1091,
+            "method": "load",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._load",
+            "line": 938,
+            "method": "_load",
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.require",
+            "line": 1115,
+            "method": "require",
+            "native": false
+        }
+    ]
+}
+{
+    "date": "Sun Dec 03 2023 20:05:42 GMT+0700 (Western Indonesia Time)",
+    "error": {
+        "diagnosticCodes": [
+            2345
+        ]
+    },
+    "exception": true,
+    "level": "error",
+    "message": "uncaughtException: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\nTSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "os": {
+        "loadavg": [
+            0,
+            0,
+            0
+        ],
+        "uptime": 293920.046
+    },
+    "process": {
+        "argv": [
+            "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\dist\\bin.js",
+            "E:\\iseng\\express-ts-midtrans\\src\\index.ts"
+        ],
+        "cwd": "E:\\iseng\\express-ts-midtrans",
+        "execPath": "C:\\Program Files\\nodejs\\node.exe",
+        "gid": null,
+        "memoryUsage": {
+            "arrayBuffers": 2345151,
+            "external": 5228014,
+            "heapTotal": 148389888,
+            "heapUsed": 119855520,
+            "rss": 190136320
+        },
+        "pid": 21088,
+        "uid": null,
+        "version": "v20.9.0"
+    },
+    "stack": "TSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "trace": [
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "createTSError",
+            "line": 859,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "reportTSError",
+            "line": 863,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 36,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "getOutput",
+            "line": 1077,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 41,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.compile",
+            "line": 1433,
+            "method": "compile",
+            "native": false
+        },
+        {
+            "column": 30,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Module.m._compile",
+            "line": 1617,
+            "method": "_compile",
+            "native": false
+        },
+        {
+            "column": 10,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._extensions..js",
+            "line": 1295,
+            "method": ".js",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.require.extensions.<computed> [as .ts]",
+            "line": 1621,
+            "method": "ts]",
+            "native": false
+        },
+        {
+            "column": 32,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.load",
+            "line": 1091,
+            "method": "load",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._load",
+            "line": 938,
+            "method": "_load",
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.require",
+            "line": 1115,
+            "method": "require",
+            "native": false
+        }
+    ]
+}
+{
+    "date": "Sun Dec 03 2023 20:05:56 GMT+0700 (Western Indonesia Time)",
+    "error": {
+        "diagnosticCodes": [
+            2345,
+            2345
+        ]
+    },
+    "exception": true,
+    "level": "error",
+    "message": "uncaughtException: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'string.base': 'Harga harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\nTSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'string.base': 'Harga harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "os": {
+        "loadavg": [
+            0,
+            0,
+            0
+        ],
+        "uptime": 293933.906
+    },
+    "process": {
+        "argv": [
+            "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\dist\\bin.js",
+            "E:\\iseng\\express-ts-midtrans\\src\\index.ts"
+        ],
+        "cwd": "E:\\iseng\\express-ts-midtrans",
+        "execPath": "C:\\Program Files\\nodejs\\node.exe",
+        "gid": null,
+        "memoryUsage": {
+            "arrayBuffers": 2345135,
+            "external": 5227998,
+            "heapTotal": 148127744,
+            "heapUsed": 119160680,
+            "rss": 190443520
+        },
+        "pid": 13652,
+        "uid": null,
+        "version": "v20.9.0"
+    },
+    "stack": "TSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'string.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'string.base': 'Harga harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "trace": [
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "createTSError",
+            "line": 859,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "reportTSError",
+            "line": 863,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 36,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "getOutput",
+            "line": 1077,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 41,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.compile",
+            "line": 1433,
+            "method": "compile",
+            "native": false
+        },
+        {
+            "column": 30,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Module.m._compile",
+            "line": 1617,
+            "method": "_compile",
+            "native": false
+        },
+        {
+            "column": 10,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._extensions..js",
+            "line": 1295,
+            "method": ".js",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.require.extensions.<computed> [as .ts]",
+            "line": 1621,
+            "method": "ts]",
+            "native": false
+        },
+        {
+            "column": 32,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.load",
+            "line": 1091,
+            "method": "load",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._load",
+            "line": 938,
+            "method": "_load",
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.require",
+            "line": 1115,
+            "method": "require",
+            "native": false
+        }
+    ]
+}
+{
+    "date": "Sun Dec 03 2023 20:06:43 GMT+0700 (Western Indonesia Time)",
+    "error": {
+        "diagnosticCodes": [
+            2345,
+            2345,
+            2345
+        ]
+    },
+    "exception": true,
+    "level": "error",
+    "message": "uncaughtException: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\nTSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "os": {
+        "loadavg": [
+            0,
+            0,
+            0
+        ],
+        "uptime": 293981.281
+    },
+    "process": {
+        "argv": [
+            "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\dist\\bin.js",
+            "E:\\iseng\\express-ts-midtrans\\src\\index.ts"
+        ],
+        "cwd": "E:\\iseng\\express-ts-midtrans",
+        "execPath": "C:\\Program Files\\nodejs\\node.exe",
+        "gid": null,
+        "memoryUsage": {
+            "arrayBuffers": 2344943,
+            "external": 5227806,
+            "heapTotal": 148389888,
+            "heapUsed": 119244800,
+            "rss": 189558784
+        },
+        "pid": 7800,
+        "uid": null,
+        "version": "v20.9.0"
+    },
+    "stack": "TSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "trace": [
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "createTSError",
+            "line": 859,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "reportTSError",
+            "line": 863,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 36,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "getOutput",
+            "line": 1077,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 41,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.compile",
+            "line": 1433,
+            "method": "compile",
+            "native": false
+        },
+        {
+            "column": 30,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Module.m._compile",
+            "line": 1617,
+            "method": "_compile",
+            "native": false
+        },
+        {
+            "column": 10,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._extensions..js",
+            "line": 1295,
+            "method": ".js",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.require.extensions.<computed> [as .ts]",
+            "line": 1621,
+            "method": "ts]",
+            "native": false
+        },
+        {
+            "column": 32,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.load",
+            "line": 1091,
+            "method": "load",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._load",
+            "line": 938,
+            "method": "_load",
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.require",
+            "line": 1115,
+            "method": "require",
+            "native": false
+        }
+    ]
+}
+{
+    "date": "Sun Dec 03 2023 20:06:55 GMT+0700 (Western Indonesia Time)",
+    "error": {
+        "diagnosticCodes": [
+            2345,
+            2345,
+            2345
+        ]
+    },
+    "exception": true,
+    "level": "error",
+    "message": "uncaughtException: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\nTSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "os": {
+        "loadavg": [
+            0,
+            0,
+            0
+        ],
+        "uptime": 293993.421
+    },
+    "process": {
+        "argv": [
+            "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\dist\\bin.js",
+            "E:\\iseng\\express-ts-midtrans\\src\\index.ts"
+        ],
+        "cwd": "E:\\iseng\\express-ts-midtrans",
+        "execPath": "C:\\Program Files\\nodejs\\node.exe",
+        "gid": null,
+        "memoryUsage": {
+            "arrayBuffers": 2345071,
+            "external": 5227934,
+            "heapTotal": 148389888,
+            "heapUsed": 119486768,
+            "rss": 189333504
+        },
+        "pid": 22828,
+        "uid": null,
+        "version": "v20.9.0"
+    },
+    "stack": "TSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "trace": [
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "createTSError",
+            "line": 859,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "reportTSError",
+            "line": 863,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 36,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "getOutput",
+            "line": 1077,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 41,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.compile",
+            "line": 1433,
+            "method": "compile",
+            "native": false
+        },
+        {
+            "column": 30,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Module.m._compile",
+            "line": 1617,
+            "method": "_compile",
+            "native": false
+        },
+        {
+            "column": 10,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._extensions..js",
+            "line": 1295,
+            "method": ".js",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.require.extensions.<computed> [as .ts]",
+            "line": 1621,
+            "method": "ts]",
+            "native": false
+        },
+        {
+            "column": 32,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.load",
+            "line": 1091,
+            "method": "load",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._load",
+            "line": 938,
+            "method": "_load",
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.require",
+            "line": 1115,
+            "method": "require",
+            "native": false
+        }
+    ]
+}
+{
+    "date": "Sun Dec 03 2023 20:07:12 GMT+0700 (Western Indonesia Time)",
+    "error": {
+        "diagnosticCodes": [
+            2345,
+            2345,
+            2345
+        ]
+    },
+    "exception": true,
+    "level": "error",
+    "message": "uncaughtException: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\nTSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "os": {
+        "loadavg": [
+            0,
+            0,
+            0
+        ],
+        "uptime": 294010.312
+    },
+    "process": {
+        "argv": [
+            "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\dist\\bin.js",
+            "E:\\iseng\\express-ts-midtrans\\src\\index.ts"
+        ],
+        "cwd": "E:\\iseng\\express-ts-midtrans",
+        "execPath": "C:\\Program Files\\nodejs\\node.exe",
+        "gid": null,
+        "memoryUsage": {
+            "arrayBuffers": 2345135,
+            "external": 5227998,
+            "heapTotal": 148127744,
+            "heapUsed": 119025736,
+            "rss": 190713856
+        },
+        "pid": 21372,
+        "uid": null,
+        "version": "v20.9.0"
+    },
+    "stack": "TSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "trace": [
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "createTSError",
+            "line": 859,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "reportTSError",
+            "line": 863,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 36,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "getOutput",
+            "line": 1077,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 41,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.compile",
+            "line": 1433,
+            "method": "compile",
+            "native": false
+        },
+        {
+            "column": 30,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Module.m._compile",
+            "line": 1617,
+            "method": "_compile",
+            "native": false
+        },
+        {
+            "column": 10,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._extensions..js",
+            "line": 1295,
+            "method": ".js",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.require.extensions.<computed> [as .ts]",
+            "line": 1621,
+            "method": "ts]",
+            "native": false
+        },
+        {
+            "column": 32,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.load",
+            "line": 1091,
+            "method": "load",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._load",
+            "line": 938,
+            "method": "_load",
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.require",
+            "line": 1115,
+            "method": "require",
+            "native": false
+        }
+    ]
+}
+{
+    "date": "Sun Dec 03 2023 20:08:31 GMT+0700 (Western Indonesia Time)",
+    "error": {
+        "diagnosticCodes": [
+            2345,
+            2345,
+            2345
+        ]
+    },
+    "exception": true,
+    "level": "error",
+    "message": "uncaughtException: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'number.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'number.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\nTSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'number.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'number.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "os": {
+        "loadavg": [
+            0,
+            0,
+            0
+        ],
+        "uptime": 294089.14
+    },
+    "process": {
+        "argv": [
+            "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\dist\\bin.js",
+            "E:\\iseng\\express-ts-midtrans\\src\\index.ts"
+        ],
+        "cwd": "E:\\iseng\\express-ts-midtrans",
+        "execPath": "C:\\Program Files\\nodejs\\node.exe",
+        "gid": null,
+        "memoryUsage": {
+            "arrayBuffers": 2345055,
+            "external": 5227918,
+            "heapTotal": 148127744,
+            "heapUsed": 119707472,
+            "rss": 190435328
+        },
+        "pid": 22808,
+        "uid": null,
+        "version": "v20.9.0"
+    },
+    "stack": "TSError: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m8\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'string.base': string; 'string.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m  8\u001b[0m         nama: joi.string().trim().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                     ~\u001b[0m\r\n\u001b[7m  9\u001b[0m             'string.base': 'Barang harus berupa string',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 11\u001b[0m             'any.required': 'Barang harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 12\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m13\u001b[0m:\u001b[93m49\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'number.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 13\u001b[0m         jumlah: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                                ~\u001b[0m\r\n\u001b[7m 14\u001b[0m             'number.base': 'Jumlah harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 16\u001b[0m             'any.required': 'Jumlah harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 17\u001b[0m         }),\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/validations/barang.validations.ts\u001b[0m:\u001b[93m18\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type '{ 'number.base': string; 'number.empty': string; 'any.required': string; }' is not assignable to parameter of type 'string'.\r\n\r\n\u001b[7m 18\u001b[0m         harga: joi.number().required().message({\r\n\u001b[7m   \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[7m 19\u001b[0m             'number.base': 'Harga harus berupa angka',\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m...\u001b[0m \r\n\u001b[7m 21\u001b[0m             'any.required': 'Harga harus diisi'\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[7m 22\u001b[0m         })\r\n\u001b[7m   \u001b[0m \u001b[91m~~~~~~~~~\u001b[0m\r\n\n    at createTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:859:12)\n    at reportTSError (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:863:19)\n    at getOutput (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1077:36)\n    at Object.compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1433:41)\n    at Module.m._compile (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1617:30)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.require.extensions.<computed> [as .ts] (E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)",
+    "trace": [
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "createTSError",
+            "line": 859,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "reportTSError",
+            "line": 863,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 36,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "getOutput",
+            "line": 1077,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 41,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.compile",
+            "line": 1433,
+            "method": "compile",
+            "native": false
+        },
+        {
+            "column": 30,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Module.m._compile",
+            "line": 1617,
+            "method": "_compile",
+            "native": false
+        },
+        {
+            "column": 10,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._extensions..js",
+            "line": 1295,
+            "method": ".js",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "E:\\iseng\\express-ts-midtrans\\node_modules\\ts-node\\src\\index.ts",
+            "function": "Object.require.extensions.<computed> [as .ts]",
+            "line": 1621,
+            "method": "ts]",
+            "native": false
+        },
+        {
+            "column": 32,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.load",
+            "line": 1091,
+            "method": "load",
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module._load",
+            "line": 938,
+            "method": "_load",
+            "native": false
+        },
+        {
+            "column": 19,
+            "file": "node:internal/modules/cjs/loader",
+            "function": "Module.require",
+            "line": 1115,
+            "method": "require",
+            "native": false
+        }
+    ]
+}
